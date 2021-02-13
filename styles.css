@@ -70,6 +70,14 @@ section{
     border-radius: 10px;
 }
 
+.divider-2{
+    border: 2px solid rgba(237, 222, 186, 0.4);
+    width: 100%;
+    margin: 15px 0;
+    border-radius: 10px;
+    justify-content: center;
+}
+
 form .input-form{
     width: 350px;
     background: white;
@@ -159,8 +167,10 @@ input.btn:disabled{
     max-height: 250px;
     justify-content: center;
     align-items: center;
+    padding: 10px;
 }
 
-.sucess[
-
-]
+.congrad p{
+    max-width: 250px;
+    padding: 25px;
+}
